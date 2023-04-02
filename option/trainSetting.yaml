@@ -1,0 +1,15 @@
+gpu_id: 2
+data_root: '/data1/liulei_lab/Data'
+outf: '/data1/liulei_lab/MODEL_file/Fourier/20230214/'
+re_path: 
+RESUME: False
+input_setting: 'H'
+input_mask: 'Mask'
+batch_size: 2
+max_epoch: 300
+scheduler: 'CosineAnnealingLR'
+loss_type: L2
+milestones: [50,100,150,200,250]
+gamma: 0.5
+epoch_sam_num: 5000
+learning_rate: 6.0e-4

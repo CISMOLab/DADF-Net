@@ -1,0 +1,9 @@
+model_type: DADFNet
+embeading_dim: 32
+stage: 2
+num_blocks: [2,2,2]
+img_size: 256
+n_s: [1,1,1]
+Multiscale: True
+Type: LocalTrans
+inType: True
